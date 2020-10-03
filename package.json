@@ -2,10 +2,11 @@
   "name": "@jludev/component-lib",
   "version": "0.1.0",
   "description": "My React Component Library",
-  "main": "dist/bundle.js",
+  "main": "./dist/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "typecheck": "tsc --noEmit",
+    "dev": "webpack --mode=development",
     "webpack": "webpack"
   },
   "author": "Joshua-Lucas",
